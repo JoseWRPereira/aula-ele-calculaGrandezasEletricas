@@ -3,15 +3,19 @@
 ###
 
 ENTRADA_TEX=Aula
-SAIDA_PDF=aula-ele-interpretaCircuitosEletricos
+SAIDA_PDF=aula-ele-calculaOhmKirchhoff
 PDF_PATH=./pdf/
 FIG_PATH=./fig/
 
 LATEX=pdflatex
+PARAM=-synctex=1 -shell-escape -enable-write18 -interaction=nonstopmode
 
-FIGS += \
-fig-circuitoDesafio.aux \
-fig-circuitoDesafioFonteCarga.aux \
+FIGS +=	\
+fig-desafio.aux \
+fig-circuitoSimples.aux \
+fig-leiOhmGrafico.aux
+
+#fig-circuitoDesafioFonteCarga.aux \
 fig-circuitoSimples.aux \
 fig-circuitoDesafioNoSup.aux \
 fig-circuitoDesafioNoInf.aux \
@@ -34,17 +38,19 @@ MOV: LATEX1
 	mv -f *.pdf $(PDF_PATH)/$(SAIDA_PDF).pdf
 
 LATEX1: LATEX0
-	$(LATEX) -synctex=1 -shell-escape -enable-write18 -interaction=nonstopmode $(ENTRADA_TEX)
+	$(LATEX) $(PARAM) $(ENTRADA_TEX)
+
 
 LATEX0: $(ENTRADA_TEX).tex $(FIGS)
 	$(LATEX) $(ENTRADA_TEX)
 
 # $@    $<
 %.aux: %.tex
-	$(LATEX) $<
+	$(LATEX) $(PARAM) $<
 	pdftoppm -png $(@:%.aux=%.pdf) $(FIG_PATH)$(<:%.tex=%)
 	mv fig*.pdf $(FIG_PATH)
 
+#	$(LATEX) $<
 
 clean:
 clear:
@@ -67,3 +73,5 @@ clear:
 	rm -f *.synctex.gz
 	rm -f *.snm
 	rm -f *~
+	rm -f fig*.gnuplot
+	rm -f fig*.table
