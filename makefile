@@ -13,7 +13,9 @@ PARAM=-synctex=1 -shell-escape -enable-write18 -interaction=nonstopmode
 FIGS +=	\
 fig-desafio.aux \
 fig-circuitoSimples.aux \
-fig-leiOhmGrafico.aux
+fig-leiOhmGrafico.aux \
+fig-noSupInf.aux \
+fig-malha.aux
 
 #fig-circuitoDesafioFonteCarga.aux \
 fig-circuitoSimples.aux \
