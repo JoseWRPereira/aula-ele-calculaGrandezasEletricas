@@ -15,7 +15,8 @@ fig-desafio.aux \
 fig-circuitoSimples.aux \
 fig-leiOhmGrafico.aux \
 fig-noSupInf.aux \
-fig-malha.aux
+fig-malha.aux \
+fig-paralelo.aux
 
 #fig-circuitoDesafioFonteCarga.aux \
 fig-circuitoSimples.aux \
