@@ -16,7 +16,17 @@ fig-circuitoSimples.aux \
 fig-leiOhmGrafico.aux \
 fig-noSupInf.aux \
 fig-malha.aux \
-fig-paralelo.aux
+fig-paralelo.aux \
+fig-rSerie.aux \
+fig-desafioPasso1.aux \
+fig-desafioPasso2.aux \
+fig-desafioPasso3.aux \
+fig-desafioPasso4.aux \
+fig-desafioPasso5.aux \
+fig-desafioPasso6.aux \
+fig-ativ1.aux \
+fig-ativ2.aux \
+fig-ativ3.aux
 
 #fig-circuitoDesafioFonteCarga.aux \
 fig-circuitoSimples.aux \
