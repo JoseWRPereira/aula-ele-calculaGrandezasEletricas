@@ -9,7 +9,7 @@ Notas de aula
 
 > # Desafio
 > Dado o circuito a seguir, considerar: R1 = 330R, R2 = 150R, R3 = 270R,R4 = 400R e R5 = 100R.
-
+>
 > Identificar:
 > * os nós do circuito;
 > * a configuração de ligação dos componentes: série ou paralelo;
@@ -18,7 +18,7 @@ Notas de aula
 > * Repetir o processo até obter a resistência equivalente total.
 >
 >
-> ![Circuito elétrico do desafio - Interpretação de Circuitos Elétricos](https://github.com/JoseWRPereira/aula-ele-calculaReqOhm/blob/master/fig/fig-circuitoDesafio-1.png?raw=true)
+> ![Circuito elétrico do desafio - Interpretação de Circuitos Elétricos](https://github.com/JoseWRPereira/aula-ele-calculaReqOhm/blob/master/fig/fig-desafio-1.png?raw=true)
 >
 
 # Revisitando Conhecimentos
