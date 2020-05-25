@@ -7,17 +7,19 @@ Notas de aula
 * Calcular grandezas elétricas em circuitos elétricos;
 * Calcular a resistência equivalente total de circuitos elétricos.
 
-# Desafio
-Dado o circuito a seguir, considerar: R1 = 330R, R2 = 150R, R3 = 270R,R4 = 400R e R5 = 100R.
+> # Desafio
+> Dado o circuito a seguir, considerar: R1 = 330R, R2 = 150R, R3 = 270R,R4 = 400R e R5 = 100R.
 
-Identificar:
-* os nós do circuito;
-* a configuração de ligação dos componentes: série ou paralelo;
-* Calcular a resistência equivalente em cada ramo;
-* Simplificar o circuito ao redesenhá-lo;
-* Repetir o processo até obter a resistência equivalente total.
-
-### figura
+> Identificar:
+> * os nós do circuito;
+> * a configuração de ligação dos componentes: série ou paralelo;
+> * Calcular a resistência equivalente em cada ramo;
+> * Simplificar o circuito ao redesenhá-lo;
+> * Repetir o processo até obter a resistência equivalente total.
+>
+>
+> ![Circuito elétrico do desafio - Interpretação de Circuitos Elétricos](https://github.com/JoseWRPereira/aula-ele-calculaReqOhm/blob/master/fig/fig-circuitoDesafio-1.png?raw=true)
+>
 
 # Revisitando Conhecimentos
 A identificação de configurações e características do circuito é fundamental para a sua análise.
