@@ -3,7 +3,7 @@
 ###
 
 ENTRADA_TEX=Aula
-SAIDA_PDF=aula-ele-calculaOhmKirchhoff
+SAIDA_PDF=aula-ele-calcReq-1LeiOhm
 PDF_PATH=./pdf/
 FIG_PATH=./fig/
 
